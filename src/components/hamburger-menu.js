@@ -24,15 +24,9 @@ import { elastic as Menu } from 'react-burger-menu'
     },
     bmMenuWrap: {
       position: 'fixed',
-      height: '100%'
-    },
-    bmMenu: {
-      background: '#e1ad01',
-      padding: '2.5em 1.5em 0',
-      fontSize: '1.15em',
-      display:'flex',
-      flexDirection:'row',
-      justifyContent:'flex-end'
+      height: '100%',
+      width:'120px',
+      background: '#282c34'
     },
     bmMorphShape: {
         display:'none'
@@ -40,12 +34,15 @@ import { elastic as Menu } from 'react-burger-menu'
     bmItemList: {
       color: '#b8b7ad',
       padding: '0.8em',
-      display: 'flex',
-      flexDirection:'column',
-      alignItems:'center'
+      width:'120px',
+      left:'0px',
+      background:'#282c34',
+      marginTop:'42px'
     },
     bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.3)'
+      background: 'rgba(0, 0, 0, 0.3)',
+      width:'120px',
+      right:'0px'
     }
   }
 
